@@ -22,7 +22,7 @@ function App() {
 
   const [mode, setMode] = useState("light");
   const [switchText, setSwitchText] = useState("Enable dark mode");
-  const [alert, setAlert] = useState("null");
+  const [alert, setAlert] = useState("");
 
   const showAlert=(message,type)=>{
     setAlert({ msg : message,
